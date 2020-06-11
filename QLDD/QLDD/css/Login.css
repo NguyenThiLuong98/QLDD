@@ -1,0 +1,87 @@
+﻿@import url('Login.css');
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+.header {
+    padding: 10px 10px 0 0;
+    font-weight: 900;
+    background-color: #0a73b8;
+    height: 120px;
+}
+.header img{
+    height:90px;
+    width:90px;
+    position: absolute;
+    right:auto;
+    margin-left:200px;
+}
+.header p {
+        text-align: center;
+        font-size: 25px;
+        color: white;
+}
+.body {
+    background: linear-gradient(to bottom, #63e5fad4, #24f88cd9);
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 15px 20px 0px rgba(0,0,0,0.1);
+}
+.btn-login {
+    background: #27a64e;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 225px;
+    margin-top: -50px;
+}
+
+.login-sec {
+    padding: 50px 30px;
+    position: relative;
+}
+.login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #0c0909;
+}
+.login-sec .copy-text {
+     position: absolute;
+     width: 80%;
+     bottom: 20px;
+     font-size: 13px;
+     text-align: center;
+}
+
+.login-sec .copy-text i {
+     color: #FEB58A;
+ }
+
+.login-sec .copy-text a {
+     color: #E36262;
+}
+
+
+
+.login-sec h2:after {
+     content: " ";
+     width: 100px;
+     height: 5px;
+     background: #cdc5c0;
+     display: block;
+     margin-top: 20px;
+     border-radius: 3px;
+     margin-left: auto;
+     margin-right: auto
+}
+.form-check-label{
+    margin-top:20px;
+}
+small{
+    font-size:117%;
+}
+
